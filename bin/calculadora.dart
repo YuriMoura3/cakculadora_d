@@ -38,7 +38,6 @@ void main() {
 
   print("Digite o primeiro número:");
   String? entrada = stdin.readLineSync();
-
   if (entrada != null) {
     if (entrada != "") {
       numeroUm = double.parse(entrada);
@@ -52,9 +51,9 @@ void main() {
       operacao = entrada;
     }
   }
+
   print("Digite o segundo número:");
   entrada = stdin.readLineSync();
-
   if (entrada != null) {
     if (entrada != "") {
       numeroDois = double.parse(entrada);
