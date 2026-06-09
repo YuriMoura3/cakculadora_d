@@ -31,7 +31,8 @@ void main() {
         multiplicacao();
       case "/":
         divisao();
-
+      default:
+        print("Símbolo de Operação inválido.");
         break;
     }
   }
@@ -59,6 +60,6 @@ void main() {
       numeroDois = double.parse(entrada);
     }
   }
-
+  print("O resultado é :");
   calcular();
 }
